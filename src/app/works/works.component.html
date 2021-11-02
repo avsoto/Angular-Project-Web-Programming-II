@@ -1,0 +1,23 @@
+<section id="vantage" class="description main-section">
+    <div class="container">
+        <table class="table table-striped table-bordered">
+            <caption>May 2020</caption>
+            <thead class="thead-dark">
+                <tr>
+                    <th>Cod</th>
+                    <th>Titule</th>
+                    <th>Theme</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let itemWork of listaWorks">
+                    <td>{{itemWork.id_post}}</td>
+                    <td>{{itemWork.titulo}}</td>
+                    <td>{{itemWork.tema}}</td>
+                    <td>{{itemWork.cuerpo}}</td>
+                </tr>
+            </tbody>
+        </table>  
+    </div>
+</section>

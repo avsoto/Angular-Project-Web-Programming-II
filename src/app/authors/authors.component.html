@@ -1,0 +1,32 @@
+<br><br><br><br><br><br><br>
+<section id="vantage" class="description main-section">
+    <div class="container">
+        <header>
+            <br><br><br>
+            <h2>Works</h2>
+            <p class="sub-header">We present the works of the authors that contributed articles for this blog. ¡Thanks to them!</p>
+            </header>
+        <br><br>
+        <div class="row">
+            <div class="col-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item"
+                    *ngFor = "let itemAuthor of listaAuthor"
+                    (click)="seleccionar(itemAuthor)"
+                    [class.active]="itemAuthor === authorSeleccionado">
+                        <h5>{{itemAuthor.nombre}} {{itemAuthor.apellido}}</h5>
+                        <p>{{itemAuthor.cargo}}</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9"
+            *ngIf = "authorSeleccionado">
+            <br>
+                <h3>{{authorSeleccionado.nombre}} {{authorSeleccionado.apellido}}</h3>
+                <p>{{authorSeleccionado.cargo}}</p>
+                <app-works *ngIf="authorSeleccionado" [authorX]="authorSeleccionado"></app-works>
+            </div>
+        </div>
+    </div>
+</section>
+<br><br><br>

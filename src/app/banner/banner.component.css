@@ -1,0 +1,47 @@
+/*banner*/
+
+h1{
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 80px;
+    padding-top: 250px;
+    color: white; 
+}
+
+.topmargin-sm{
+    margin-top: 30px;
+}
+
+#hero{
+    background-image: url('http://revistaquehacer.pe/adm/storage/uploads/6fdb5eb1f64f493d45c5437d0deebeeb.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 900px;
+    color: #ffffff;
+}
+
+.topmargin-lg{
+    margin-top: 60px;
+}
+
+#hero p{
+    color: white;
+    font-size: 19px;
+}
+
+.content-center{
+    max-width:800px; 
+    margin: 0 auto 10px auto; 
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+

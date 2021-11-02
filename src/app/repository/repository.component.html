@@ -1,0 +1,30 @@
+<br><br><br><br><br><br><br>
+<section id="vantage" class="description main-section">
+    <div class="container">
+        <header>
+        <br><br><br>
+        <h2>Repository</h2>
+        <p class="sub-header">We present the names of the articles and a description of them.</p>
+        </header>
+        <br><br>
+        <table class="table table-striped table-bordered">
+            <caption>May 2020</caption>
+            <thead class="thead-dark">
+                <tr>
+                    <th>Cod</th>
+                    <th>Titule</th>
+                    <th>Theme</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let itemRepository of listaRepository">
+                    <td>{{itemRepository.id_post}}</td>
+                    <td>{{itemRepository.titulo}}</td>
+                    <td>{{itemRepository.tema}}</td>
+                    <td>{{itemRepository.cuerpo}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>

@@ -1,0 +1,38 @@
+/*articles index
+*/
+.container {
+    max-width: 1300px;
+}
+
+a{
+    font-size: 48px;
+    color: #292929;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.css-1yzjcgw{
+    margin-right: 10px;
+}
+
+.css-6en0ir{
+    color: #d0021b;
+    font-size: 19px;
+}
+
+h2{
+    text-align: center;
+}
+
+.card{
+    border: 1px solid rgba(0,0,0,0);
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.0);
+    border-top: 1px solid rgba(0,0,0,0);
+}
+

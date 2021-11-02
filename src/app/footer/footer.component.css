@@ -1,0 +1,23 @@
+/*footer*/
+
+.page-footer{
+    background-color: black;
+}
+
+p.footer{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #f9f9f9; 
+}
+
+a{
+    color: white;    
+}
+
+figure, article{
+    margin-bottom: 0px;
+}
+
+th{
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+/*navbar*/
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0, .05);
+    min-height: 50px;
+   
+}
+
+.nav-link{
+    color: #1a1a1a; 
+}
+
+.nav-link:hover{
+    color: blue; 
+}
+
+.logo-brand{
+    min-width: 160px;
+    max-width: 160px;
+}
+
+.navbar-toggler{
+    font-size: 40px;
+}
+
+.navbar-toggler:focus{
+    outline: none; 
+}
+
+
+
+
